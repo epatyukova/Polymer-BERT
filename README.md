@@ -6,3 +6,4 @@ This repository is a collection of materials related to fine-tuning BERT on QA p
 # References:
 
 1. "High-throughput experimentation for discovery of biodegradable polyesters", Fransena, K. A., Av-Rona, S. H. M. , Buchanana, T. R. , Walsha, D. J.  , Rotaa, D. T., Van Notea, L., and Olsen, B. D.,  PNAS, 120 (23) e2220021120, 2023, [https://doi.org/10.1073/pnas.2220021120](https://doi.org/10.1073/pnas.2220021120).
+2. "Autogenerating a Domain-Specific Question-Answering Data Set from a Thermoelectric Materials Database to Enable High-Performing BERT Models", Sierepeklis, O., Cole J. M., J. Chem. Inf. Model. 2025, 65, 8579−8592, [https://doi.org/10.1021/acs.jcim.5c00840](https://doi.org/10.1021/acs.jcim.5c00840)
