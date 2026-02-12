@@ -1,0 +1,30 @@
+task: extractive-qa
+base_model: m3rg-iitd/matscibert 
+project_name: autotrain-bert-ex-qa1
+log: tensorboard
+backend: local
+
+data:
+  path: ../QA-dataset/autotrain_data/
+  train_split: train
+  valid_split: validation
+  column_mapping:
+    text_column: context
+    question_column: question
+    answer_column: answers
+
+params:
+  max_seq_length: 512
+  max_doc_stride: 128
+  epochs: 1
+  batch_size: 4
+  lr: 2e-5
+  optimizer: adamw_torch
+  scheduler: linear
+  gradient_accumulation: 1
+  mixed_precision: "no"
+
+hub:
+  username: ${HF_USERNAME}
+  token: ${HF_TOKEN}
+  push_to_hub: false
