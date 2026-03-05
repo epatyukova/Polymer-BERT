@@ -5,7 +5,7 @@ log: tensorboard
 backend: local
 
 data:
-  path: ../QA-dataset/autotrain_data/
+  path: ../QA-dataset/autotrain_data_fransen/
   train_split: train
   valid_split: validation
   column_mapping:
